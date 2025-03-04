@@ -2,4 +2,172 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-size: var(--m-font-size);
+  color: var(--font-color);
+  font-weight: var(--m-font-weight);
+  background-color: var(--bg-body);
 }
+
+.header {
+  display: grid;
+  grid-template-columns: var(--grid-template-columns);
+  grid-template-rows: auto;
+  min-height: 668px;
+  background-image: var(--background-image);
+  background-position: center;
+  background-attachment: fixed;
+  padding: var(--box-padding);
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  inline-size: 25px;
+  block-size: 25px;
+  background-color: transparent;
+  border: 1px var(--accent-color) solid;
+}
+
+.decorated-zone::before {
+  border-bottom: none;
+  border-left: none;
+  position: absolute;
+  left: 90.67vw;
+  top: 2.67vw;
+}
+
+.decorated-zone::after {
+  border-top: none;
+  border-right: none;
+  position: absolute;
+  right: 90.666vw;
+  top: 168.8vw;
+}
+
+.header__rec-marker {
+  width: 1px;
+  height: 1px;
+}
+
+/*Вернуться к позиционированию*/
+.header__rec-marker::before {
+  --font-color: var(--pink-bright);
+
+  content: "Rec";
+  color: var(--font-color);
+  text-transform: uppercase;
+  position: absolute;
+  left: 81.70vw;
+  top: 3.70vw;
+}
+
+.header__rec-marker::after {
+  content: "";
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 100%;
+  background-color: var(--accent-color);
+  position: absolute;
+  left: 92vw;
+  top: 5.2vw;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.header__theme-menu {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  justify-self: flex-end;
+  align-self: center;
+  margin-block: 65px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  --font-color: var(--pink-bright);
+
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: var(--font-color);
+  text-transform: lowercase;
+}
+
+.header__theme-menu-button_type_dark {
+  border: 1px var(--accent-color) solid;
+  /* разобраться, почему снизу нет паддинга */
+  padding: 1.5px 13px;
+}
+
+.header__title {
+  --font-color: var(--purple);
+  
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  justify-self: flex-start;
+  align-self: flex-end;
+  font-size: var(--l-font-size);
+  font-weight: var(--l-font-weight);
+  color: var(--font-color);
+  text-transform: lowercase;
+  text-shadow: 4px 4px 0 var(--accent-color);
+  line-height: 82.5%;
+  margin-block-end: 55px;
+}
+
+.header__text-box {
+  grid-column: 1 / 3;
+  grid-row: 3 / 3;
+  margin-block-end: 31px;
+}
+
+.subtitle {
+  --font-color: var(--blue-dark);
+  
+  font-size: var(--m-font-size);
+  font-weight: var(--l-font-weight);
+  color: var(--font-color);
+}
+
+.subtitle__decor {
+  background-color: var(--bg-subtitle);
+}
+
+.subtitle_indent {
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+}
+
+.weight_normal {
+  font-weight: var(--m-font-weight);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: var(--grid-template-columns);
+  grid-template-rows: auto;
+  padding: var(--box-padding);
+}
+
+.main__section {
+  grid-column: 1 / 3;
+  grid-row: auto;
+  margin-block-start: 75px;
+}
+
+.main__title {
+  --font-color: var(--pink-bright);
+  
+  font-size: var(--m-font-size);
+  color: var(--font-color);
+}
+
+
+
