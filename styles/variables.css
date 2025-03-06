@@ -24,5 +24,19 @@
 
 --grid-template-columns: 2fr 1fr;
 
---box-padding: 10px;
+--container-padding: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --l-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --grid-template-columns: 2fr minmax(min-content, 20px) 1fr 3fr;
+    --container-padding: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --l-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
