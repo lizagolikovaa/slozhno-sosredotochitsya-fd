@@ -22,7 +22,13 @@
 --bg-subtitle: var(--pink-bright);
 --bg-image: var(--background-image);
 
+--grid-column: 1 / 3;
 --grid-template-columns: 2fr 1fr;
+
+--button-padding: 1px 13px 3px;
+--button-border: 1px solid var(--pink-bright);
+
+--link-border: 1px solid var(--pink-light);
 
 --container-padding: 10px;
 }
