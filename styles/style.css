@@ -36,24 +36,24 @@
   border-bottom: none;
   border-left: none;
   position: absolute;
-  left: 339px;
-  top: 10px;
 }
 
 .decorated-zone::after {
   border-top: none;
   border-right: none;
   position: absolute;
-  right: 90.666vw;
-  top: 168.8vw;
 }
 
 .header__rec-marker {
-  inline-size: 1px;
-  block-size: 1px;
+  inline-size: 25px;
+  block-size: 25px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 1;
+  align-self: flex-start;
+  justify-self: flex-end;
+  position: relative;
 }
 
-/*Вернуться к позиционированию*/
 .header__rec-marker::before {
   --font-color: var(--pink-bright);
 
@@ -61,8 +61,8 @@
   color: var(--font-color);
   text-transform: uppercase;
   position: absolute;
-  left: 81.70vw;
-  top: 3.70vw;
+  top: 5%;
+  right: 100%;
 }
 
 .header__rec-marker::after {
@@ -71,10 +71,12 @@
   block-size: 9px;
   border-radius: 100%;
   background-color: var(--accent-color);
-  position: absolute;
-  left: 92vw;
-  top: 5.2vw;
   box-shadow: 0 0 4px 2px var(--accent-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+
 }
 
 .header__theme-menu {
@@ -207,58 +209,3 @@
   margin-block: 285px;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-
-/*
-.header__rec-marker::before {
-  --font-color: var(--pink-bright);
-
-  content: "Rec";
-  color: var(--font-color);
-  text-transform: uppercase;
-  position: absolute;
-  left: 687px;
-  top: 23px;
-}
-
-.header__rec-marker::after {
-  content: "";
-  inline-size: 9px;
-  block-size: 9px;
-  border-radius: 100%;
-  background-color: var(--accent-color);
-  position: absolute;
-  left: 730px;
-  top: 30px;
-  box-shadow: 0 0 4px 2px var(--accent-color);
-}
-
-  .decorated-zone::before {
-    border-bottom: none;
-    border-left: none;
-    position: absolute;
-    left: 723px;
-  }
-  
-  .decorated-zone::after {
-    border-top: none;
-    border-right: none;
-    position: absolute;
-    right: 723px;
-    top: 800px; 
-  }
-
-  /*@media (width >= 768px) {
-    .header {
-      padding: var(--container-padding) var(--container-padding) var(--container-padding) 0;
-    }
-
-    .header__theme-menu {
-      grid-column: 4 / 5;
-      grid-row: 1 / 1;
-    }
-
-    .header__title {
-      grid-column: 1 / 5;
-      grid-row: 2 / 2;
-    }
-  }*/
