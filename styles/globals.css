@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
   font-family: 'IBM Plex mono';
   font-size: 1.125rem;
-  line-height: clamp(1.4375rem, 1.4375rem + 0.33vw, 3.83rem);
+  line-height: 1.4375rem;
 }
 
 h1,
