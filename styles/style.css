@@ -109,16 +109,8 @@
   text-transform: lowercase;
 }
 
-.header__theme-menu-button_type_dark {
-  border: var(--button-border);
-  padding: var(--button-padding);
-}
-
 /*Посмотреть как сделать так, чтобы снизу margin не прибавлялся */
-.header__theme-menu-button:not(.header__theme-menu-button_type_dark):hover {
-  padding: var(--button-padding);
-  outline: var(--button-border);
-}
+
 
 .header__theme-menu-button:focus {
   outline: none;
@@ -340,8 +332,15 @@
   }
 
   .header__theme-menu {
-    grid-column: 6 / 7;
-    margin-block: 172px;
+    grid-column: 3 / 5;
+    justify-self: center;
+    margin-block-start: 0;
+    margin-block-end: 270px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+    gap: 33px;
   }
 
   .header__title {
