@@ -234,11 +234,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  block-size: 100vh;
   padding: 0 var(--container-padding) var(--container-padding);
 }
 
 .footer__title {
-  block-size: 100vh;
   margin-block: 285px;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
