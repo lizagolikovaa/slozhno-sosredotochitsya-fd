@@ -102,24 +102,27 @@
   --font-color: var(--pink-bright);
 
   background: none;
-  border: none;
   outline: none;
   box-shadow: none;
+  border: 1px solid transparent;
+  padding: 1px 13px;
   color: var(--font-color);
   text-transform: lowercase;
 }
 
 /*Посмотреть как сделать так, чтобы снизу margin не прибавлялся */
-
-
 .header__theme-menu-button:focus {
-  outline: none;
+  border: none;
 }
 
 .header__theme-menu-button:focus-within {
   border-bottom: var(--button-border);
   margin-bottom: -1px;
   inline-size: 80px;
+}
+
+.header__theme-menu-button:hover {
+  border-color: var(--accent-color);
 }
 
 .title {
