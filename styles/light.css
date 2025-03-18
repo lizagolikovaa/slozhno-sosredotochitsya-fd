@@ -27,7 +27,50 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  color: var(--font-color);
+  background-color: var(--bg-body);
+  background-image: var(--background-image);
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  --accent-color: var(--dark-grey);
+
+  border-color: var(--accent-color);
+}
+
+.theme-light .header__rec-marker {
+  display: none;
+}
+
+.theme-light .header__theme-menu-button {
+  --font-color: var(--dark-grey);
+
+  color: var(--font-color);
+}
+
+.theme-light .header__theme-menu-button_type_light,
+.theme-light .header__theme-menu-button:hover {
+  --accent-color: #353430;
   
+  border-color: var(--accent-color);
+}
+
+.theme-light .header__theme-menu-button_type_auto {
+  border: none;
+}
+
+.theme-light .title {
+  --font-color: var(--pink);
+
+  color: var(--font-color);
+}
+
+.theme-light .main__title,
+.theme-light .subtitle {
+  --font-color: #353430;
+
+  color: var(--font-color);
 }
 
 @media (prefers-color-scheme: light) {

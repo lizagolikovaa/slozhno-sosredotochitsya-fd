@@ -108,13 +108,22 @@
   padding: 1px 13px;
   color: var(--font-color);
   text-transform: lowercase;
+  cursor: pointer;
 }
 
-/*Посмотреть как сделать так, чтобы снизу margin не прибавлялся */
+.header__theme-menu-button_type_auto {
+  border-color: var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
+
 .header__theme-menu-button:focus {
-  border: none;
+  outline: none;
 }
 
+/*Сделать подчеркивание через псевдоэлемент*/
 .header__theme-menu-button:focus-within {
   border-bottom: var(--button-border);
   margin-bottom: -1px;
