@@ -30,16 +30,3 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.header__theme-menu-button_type_light {
-  outline: none;
-}
-
-.header__theme-menu-button_type_dark {
-  outline: var(--button-border);
-  padding: var(--button-padding);
-}
-
-.header__theme-menu-button:not(.header__theme-menu-button_type_dark):hover {
-  padding: var(--button-padding);
-  outline: var(--button-border);
-}

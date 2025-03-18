@@ -30,36 +30,6 @@
   
 }
 
-.header__theme-menu-button {
-  --font-color: var(--dark-grey);
-}
-
-.header__theme-menu-button_type_dark {
-  outline: none;
-}
-
-.header__theme-menu-button_type_light {
-  outline: var(--button-border);
-  padding: var(--button-padding);
-}
-
-.header__theme-menu-button:not(.header__theme-menu-button_type_light):hover {
-  padding: var(--button-padding);
-  outline: var(--button-border);
-}
-
-.title {
-  --font-color: var(--pink);
-}
-
-.main__title {
-  --font-color: var(--dark-grey);
-}
-
-.header__rec-marker {
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --pink: #FFC2E6;
