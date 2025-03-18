@@ -13,6 +13,7 @@ body {
   font-family: 'IBM Plex mono';
   font-size: 1.125rem;
   line-height: 1.4375rem;
+  font-weight: normal;
 }
 
 h1,
@@ -25,6 +26,7 @@ p {
   margin: 0;
   font-family: inherit;
   line-height: inherit;
+  font-weight: inherit;
 }
 
 ul {
