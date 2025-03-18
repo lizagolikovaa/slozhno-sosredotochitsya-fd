@@ -34,7 +34,3 @@
 .theme-dark .header__theme-menu-button_type_dark {
   border-color: var(--accent-color);
 }
-
-.theme-dark .header__theme-menu-button_type_auto {
-  border: none;
-}

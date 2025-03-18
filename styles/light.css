@@ -50,15 +50,11 @@
   color: var(--font-color);
 }
 
-.theme-light .header__theme-menu-button_type_light,
-.theme-light .header__theme-menu-button:hover {
-  --accent-color: #353430;
+.theme-light .header__theme-menu-button:hover,
+.theme-light .header__theme-menu-button_active {
+  --accent-color: var(--dark-grey);
   
-  border-color: var(--accent-color);
-}
-
-.theme-light .header__theme-menu-button_type_auto {
-  border: none;
+  outline-color: var(--accent-color);
 }
 
 .theme-light .title {
@@ -69,12 +65,10 @@
 
 .theme-light .main__title,
 .theme-light .subtitle {
-  --font-color: #353430;
+  --font-color: var(--dark-grey);
 
   color: var(--font-color);
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {

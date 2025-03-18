@@ -104,18 +104,15 @@
   background: none;
   outline: none;
   box-shadow: none;
-  border: 1px solid transparent;
+  border: none;
   padding: 1px 13px;
   color: var(--font-color);
   text-transform: lowercase;
   cursor: pointer;
 }
 
-.header__theme-menu-button_type_auto {
-  border-color: var(--accent-color);
-}
-
 .header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color);
   pointer-events: none;
 }
 
@@ -131,7 +128,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .title {
