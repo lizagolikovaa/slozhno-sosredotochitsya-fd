@@ -17,6 +17,7 @@
   display: grid;
   grid-template-columns: var(--grid-template-columns);
   grid-template-rows: auto;
+  block-size: 100vh;
   padding: var(--container-padding);
   margin-block-end: 40px;
 }
@@ -237,6 +238,7 @@
 }
 
 .footer__title {
+  block-size: 100vh;
   margin-block: 285px;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
