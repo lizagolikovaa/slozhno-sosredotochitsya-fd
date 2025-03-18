@@ -294,6 +294,12 @@
     grid-column: 3 / 5;
   }
 
+  .main__article-multitasking,
+  .main__article-food,
+  .main__article-gadget {
+    grid-column: 1 / 5;
+  }
+
   .main__section-tablet {
     gap: 20px;
   }
