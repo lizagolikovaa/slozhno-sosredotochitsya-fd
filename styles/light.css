@@ -23,6 +23,7 @@
   --bg-image: var(--background-image);
 
   --button-border: 1px solid var(--dark-grey);
+  --link-border: 1px solid var(--dark-grey);
 }
 
 .theme-light .page {
@@ -72,6 +73,8 @@
 
   color: var(--font-color);
 }
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
