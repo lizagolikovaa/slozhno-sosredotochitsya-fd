@@ -264,7 +264,6 @@
 
   .header__theme-menu {
     grid-column: 4 / 5;
-    margin-block: 172px;
   }
 
   .header__theme-menu-list {
@@ -280,8 +279,6 @@
   .header__text-box {
     grid-column: 3 / 5;
     justify-self: flex-end;
-    margin-block-start: 160px;
-    margin-block-end: 160px;
     margin-inline-start: 110px;
   }
 
@@ -370,8 +367,8 @@
   .header__theme-menu {
     grid-column: 3 / 5;
     justify-self: center;
-    margin-block-start: 0;
-    margin-block-end: 275px;
+    align-self: flex-start;
+    margin: 0;
   }
 
   .header__theme-menu-list {
@@ -386,8 +383,7 @@
 
   .header__text-box {
     grid-column: 4 / 7;
-    margin-block-start: 113px; 
-    margin-inline-start: 0;
+    margin: 0;
   }
 
   .main__article {
