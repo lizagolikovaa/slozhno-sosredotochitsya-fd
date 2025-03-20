@@ -272,7 +272,8 @@
   .header__title {
     grid-column: 1 / 5;
     position: relative;
-    right: 2%;
+    right: 3%;
+    margin-block-end: 55px;
   }
 
   .header__text-box {
@@ -302,8 +303,10 @@
     grid-column: 1 / 5;
   }
 
-  .main__section-tablet {
+  .main__section-img {
     gap: 20px;
+    padding-block-start: 20px;
+    margin-block-end: 40px;
   }
 
   .subtitle__img {
@@ -318,13 +321,15 @@
     grid-column: 1 / 4;
     grid-row: 2 / 2;
     block-size: 100%;
+    inline-size: 97%;
   }
 
   .main__section-gallery-img-icecream {
-    grid-column: 4 / 5;
+    grid-column: 3 / 5;
     grid-row: 2 / 4;
     object-fit: cover;
     block-size: 100%;
+    padding-inline-start: 49%;
   }
 
   .main__section-gallery-img-tape {
@@ -332,18 +337,26 @@
    grid-row: 3 / 5;
    object-fit: cover;
    block-size: 100%;
+   inline-size: 106%;
   }
 
   .main__section-gallery-img-books {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
     block-size: 100%;
+    inline-size: 95%;
+    padding-inline-start: 6%;
   }
 
   .main__section-gallery-img-street {
    grid-column: 2 / 5;
    grid-row: 4 / 5;
    block-size: 100%;
+   padding-inline-start: 3%;
+  }
+
+  .footer__title {
+    padding-block-start: 20px;
   }
 }
 
