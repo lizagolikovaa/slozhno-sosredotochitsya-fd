@@ -153,8 +153,6 @@
   align-self: center;
   justify-self: flex-start;
   font-weight: var(--l-font-weight);
-  margin-block-end: 62px;
-  margin-block-start: 62px;
 }
 
 .subtitle {
