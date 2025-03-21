@@ -10,8 +10,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --pink: #FFC2E6;
-  --pink-dark: #FF8DCB;
+  --pink: #ffc2e6;
+  --pink-dark: #ff8dcb;
   --dark-grey: #353430;
 
   --background-image: url(/images/cover-image-light.png);
@@ -53,7 +53,7 @@
 .theme-light .header__theme-menu-button:hover,
 .theme-light .header__theme-menu-button_active {
   --accent-color: var(--dark-grey);
-  
+
   outline-color: var(--accent-color);
 }
 
@@ -72,18 +72,18 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --pink: #FFC2E6;
-    --pink-dark: #FF8DCB;
+    --pink: #ffc2e6;
+    --pink-dark: #ff8dcb;
     --dark-grey: #353430;
-  
+
     --background-image: url(/images/cover-image-light.png);
-  
+
     --font-color: var(--dark-grey);
     --accent-color: var(--pink-dark);
     --bg-body: var(--pink);
     --bg-subtitle: var(--pink-dark);
     --bg-image: var(--background-image);
-  
+
     --button-border: 1px solid var(--dark-grey);
     --link-border: 1px solid var(--dark-grey);
   }

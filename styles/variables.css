@@ -3,39 +3,40 @@
   и их переопределение под различные устройства
 */
 :root {
---m-font-size: 1.125rem;
---l-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --m-font-size: 1.125rem;
+  --l-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
---m-font-weight: normal;
---l-font-weight: bold;
+  --m-font-weight: normal;
+  --l-font-weight: bold;
 
---purple: #DB00FF;
---blue-dark: #000028;
---pink-light: #F1B2CE;
---pink-bright: #FF0070;
+  --purple: #db00ff;
+  --blue-dark: #000028;
+  --pink-light: #f1b2ce;
+  --pink-bright: #ff0070;
 
---background-image: url(/images/cover-image-dark.png);
+  --background-image: url(/images/cover-image-dark.png);
 
---font-color: var(--pink-light);
---accent-color: var(--pink-bright);
---bg-body: var(--blue-dark);
---bg-subtitle: var(--pink-bright);
---bg-image: var(--background-image);
+  --font-color: var(--pink-light);
+  --accent-color: var(--pink-bright);
+  --bg-body: var(--blue-dark);
+  --bg-subtitle: var(--pink-bright);
+  --bg-image: var(--background-image);
 
---button-padding: 1px 13px 3px;
---button-border: 1px solid var(--pink-bright);
+  --button-padding: 1px 13px 3px;
+  --button-border: 1px solid var(--pink-bright);
 
---link-border: 1px solid var(--pink-light);
+  --link-border: 1px solid var(--pink-light);
 
---grid-template-columns: 2fr 1fr;
+  --grid-template-columns: 2fr 1fr;
 
---container-padding: 10px;
+  --container-padding: 10px;
 }
 
 @media (width >= 768px) {
   :root {
     --l-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --grid-template-columns: minmax(236px, 2fr) minmax(min-content, 20px) minmax(108px, 1fr) minmax(364px, 3fr);
+    --grid-template-columns: minmax(236px, 2fr) minmax(min-content, 20px)
+      minmax(108px, 1fr) minmax(364px, 3fr);
     --container-padding: 20px;
   }
 }
@@ -43,6 +44,8 @@
 @media (width >= 1024px) {
   :root {
     --l-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --grid-template-columns: minmax(315px, 2fr) minmax(min-content, 20px) minmax(157px, 1fr) minmax(157px, 1fr) minmax(min-content, 20px) minmax(315px, 2fr);
+    --grid-template-columns: minmax(315px, 2fr) minmax(min-content, 20px)
+      minmax(157px, 1fr) minmax(157px, 1fr) minmax(min-content, 20px)
+      minmax(315px, 2fr);
   }
 }

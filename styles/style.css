@@ -156,7 +156,7 @@
 
 .subtitle {
   --font-color: var(--blue-dark);
-  
+
   font-size: var(--m-font-size);
   font-weight: var(--l-font-weight);
   color: var(--font-color);
@@ -196,7 +196,7 @@
 
 .main__title {
   --font-color: var(--pink-bright);
-  
+
   font-size: var(--m-font-size);
   font-weight: var(--l-font-weight);
   color: var(--font-color);
@@ -300,7 +300,8 @@
   }
 
   .main__section-img {
-    --grid-template-columns: minmax(229px, 1fr) minmax(229px, 1fr) minmax(229px, 1fr);
+    --grid-template-columns: minmax(229px, 1fr) minmax(229px, 1fr)
+      minmax(229px, 1fr);
 
     grid-template-columns: var(--grid-template-columns);
     gap: 20px;
@@ -329,10 +330,10 @@
   }
 
   .main__section-gallery-img-tape {
-   grid-column: 1 / 2;
-   grid-row: 3 / 5;
-   align-self: stretch;
-   object-fit: cover;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    align-self: stretch;
+    object-fit: cover;
   }
 
   .main__section-gallery-img-books {
@@ -341,8 +342,8 @@
   }
 
   .main__section-gallery-img-street {
-   grid-column: 2 / 4;
-   grid-row: 4 / 4;
+    grid-column: 2 / 4;
+    grid-row: 4 / 4;
   }
 
   .footer__title {
@@ -391,5 +392,4 @@
   .main__article-gadget {
     grid-column: 6 / 7;
   }
-  
 }
