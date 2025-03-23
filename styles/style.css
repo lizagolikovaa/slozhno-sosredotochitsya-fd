@@ -3,10 +3,9 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   font-size: var(--m-font-size);
-  color: var(--font-color);
   font-weight: var(--m-font-weight);
   background-color: var(--bg-body);
-  background-image: var(--background-image);
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,6 +61,8 @@
 }
 
 .header__rec-marker::before {
+  --font-color: #ff0070;
+
   content: "Rec";
   color: var(--font-color);
   text-transform: uppercase;
@@ -98,6 +99,8 @@
 }
 
 .header__theme-menu-button {
+  --font-color: #ff0070;
+
   background: none;
   outline: none;
   box-shadow: none;
@@ -130,6 +133,8 @@
 }
 
 .title {
+  --font-color: #db00ff;
+
   font-size: var(--l-font-size);
   font-weight: var(--l-font-weight);
   color: var(--font-color);
@@ -152,6 +157,8 @@
 }
 
 .subtitle {
+  --font-color: #000028;
+
   font-size: var(--m-font-size);
   font-weight: var(--l-font-weight);
   color: var(--font-color);
@@ -159,6 +166,10 @@
 
 .subtitle__decor {
   background-color: var(--bg-subtitle);
+}
+
+.paragraph {
+  color: var(--font-color);
 }
 
 .paragraph__link {
@@ -190,6 +201,8 @@
 }
 
 .main__title {
+  --font-color: #ff0070;
+
   font-size: var(--m-font-size);
   font-weight: var(--l-font-weight);
   color: var(--font-color);

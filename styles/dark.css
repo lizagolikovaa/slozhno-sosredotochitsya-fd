@@ -10,41 +10,12 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --purple: #db00ff;
-  --blue-dark: #000028;
-  --pink-light: #f1b2ce;
-  --pink-bright: #ff0070;
+  --font-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --bg-body: #000028;
+  --bg-subtitle: #ff0070;
 
-  --background-image: url(../images/cover-image-dark.png);
-
-  --font-color: var(--pink-light);
-  --accent-color: var(--pink-bright);
-  --bg-body: var(--blue-dark);
-  --bg-subtitle: var(--pink-bright);
-  --bg-image: var(--background-image);
-
-  --button-underline: 0 1px 0 var(--pink-bright);
-  --link-underline: 0 1px 0 var(--pink-light);
-  --link-outline: 1px solid var(--pink-light);
+  --button-underline: 0 1px 0 #ff0070;
+  --link-underline: 0 1px 0 #ff0070;
+  --link-outline: 1px solid #ff0070;
 }
-
-.theme-dark .header__rec-marker::before {
-  --font-color: var(--pink-bright)
-}
-
-.theme-dark .header__theme-menu-button {
-  --font-color: var(--pink-bright);
-}
-
-.theme-dark .title {
-  --font-color: var(--purple);
-}
-
-.theme-dark .subtitle {
-  --font-color: var(--blue-dark);
-}
-
-.theme-dark .main__title {
-  --font-color: var(--pink-bright);
-}
-

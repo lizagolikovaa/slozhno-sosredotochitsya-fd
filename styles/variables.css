@@ -5,28 +5,22 @@
 
 :root {
 
+  --bg-image: url(../images/cover-image-dark.png);
+
   --m-font-size: 1.125rem;
   --l-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
   --m-font-weight: normal;
   --l-font-weight: bold;
 
-  --purple: #db00ff;
-  --blue-dark: #000028;
-  --pink-light: #f1b2ce;
-  --pink-bright: #ff0070;
+  --font-color: var(#f1b2ce);
+  --accent-color: var(#ff0070);
+  --bg-body: var(#000028);
+  --bg-subtitle: var(#ff0070);
 
-  --background-image: url(../images/cover-image-dark.png);
-
-  --font-color: var(--pink-light);
-  --accent-color: var(--pink-bright);
-  --bg-body: var(--blue-dark);
-  --bg-subtitle: var(--pink-bright);
-  --bg-image: var(--background-image);
-
-  --button-underline: 0 1px 0 var(--pink-bright);
-  --link-underline: 0 1px 0 var(--pink-light);
-  --link-outline: 1px solid var(--pink-light);
+  --button-underline: 0 1px 0 var(#ff0070);
+  --link-underline: 0 1px 0 var(#ff0070);
+  --link-outline: 1px solid var(#ff0070);
 
   --button-padding: 1px 13px 3px;
 
