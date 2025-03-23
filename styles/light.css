@@ -48,6 +48,7 @@
   --font-color-secondary: #353430;
   --font-color-tertiary: #353430;
   --accent-color: #ff8dcb;
+  --decoration-color: #353430;
   --bg-body: #ffc2e6;
   --bg-subtitle: #ff8dcb;
 
@@ -65,9 +66,7 @@
     --accent-color: #32312D66;
   }
   
-  .header__theme-menu-button_active,
-  .decorated-zone::before,
-  .decorated-zone::after {
+  .header__theme-menu-button_active {
     --accent-color: #353430;
   }
 }
