@@ -23,18 +23,28 @@
   --bg-subtitle: var(--pink-bright);
   --bg-image: var(--background-image);
 
-  --button-border: 1px solid var(--pink-bright);
-
-  --link-border: 1px solid var(--pink-light);
+  --button-underline: 0 1px 0 var(--pink-bright);
+  --link-underline: 0 1px 0 var(--pink-light);
+  --link-outline: 1px solid var(--pink-light);
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  color: var(--font-color);
-  background-color: var(--bg-body);
-  background-image: var(--background-image);
+.theme-dark .header__rec-marker::before {
+  --font-color: var(--pink-bright)
 }
 
-.theme-dark .header__theme-menu-button_type_dark {
-  border-color: var(--accent-color);
+.theme-dark .header__theme-menu-button {
+  --font-color: var(--pink-bright);
 }
+
+.theme-dark .title {
+  --font-color: var(--purple);
+}
+
+.theme-dark .subtitle {
+  --font-color: var(--blue-dark);
+}
+
+.theme-dark .main__title {
+  --font-color: var(--pink-bright);
+}
+
