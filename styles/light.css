@@ -44,7 +44,10 @@
   :root {
   --bg-image: url(../images/cover-image-light.png);
 
-  --font-color: #353430;
+  --title-color: #ffc2e6;
+  --font-color-primary: #353430;
+  --font-color-secondary: #353430;
+  --font-color-tertiary: #353430;
   --accent-color: #ff8dcb;
   --bg-body: #ffc2e6;
   --bg-subtitle: #ff8dcb;
@@ -57,12 +60,7 @@
   .header__rec-marker {
     display: none;
   }
-  
-  .header__theme-menu-button,
-  .main__title,
-  .subtitle {
-    --font-color: #353430;
-  }
+
   
   .header__theme-menu-button:hover {
     --accent-color: #32312D66;
@@ -72,9 +70,5 @@
   .decorated-zone::before,
   .decorated-zone::after {
     --accent-color: #353430;
-  }
-  
-  .title {
-    --font-color: #ffc2e6;
   }
 }
