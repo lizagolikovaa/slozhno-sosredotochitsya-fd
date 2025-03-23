@@ -61,10 +61,8 @@
 }
 
 .header__rec-marker::before {
-  --font-color: #ff0070;
-
   content: "Rec";
-  color: var(--font-color);
+  color: var(--font-color-secondary);
   text-transform: uppercase;
   position: absolute;
   top: 5%;
@@ -99,14 +97,12 @@
 }
 
 .header__theme-menu-button {
-  --font-color: #ff0070;
-
   background: none;
   outline: none;
   box-shadow: none;
   border: none;
   padding: 1px 13px;
-  color: var(--font-color);
+  color: var(--font-color-secondary);
   text-transform: lowercase;
   cursor: pointer;
 }
@@ -133,11 +129,9 @@
 }
 
 .title {
-  --font-color: #db00ff;
-
   font-size: var(--l-font-size);
   font-weight: var(--l-font-weight);
-  color: var(--font-color);
+  color: var(--title-color);
   text-transform: lowercase;
 }
 
@@ -157,11 +151,9 @@
 }
 
 .subtitle {
-  --font-color: #000028;
-
   font-size: var(--m-font-size);
   font-weight: var(--l-font-weight);
-  color: var(--font-color);
+  color: var(--font-color-tertiary);
 }
 
 .subtitle__decor {
@@ -169,7 +161,7 @@
 }
 
 .paragraph {
-  color: var(--font-color);
+  color: var(--font-color-primary);
 }
 
 .paragraph__link {
@@ -201,11 +193,9 @@
 }
 
 .main__title {
-  --font-color: #ff0070;
-
   font-size: var(--m-font-size);
   font-weight: var(--l-font-weight);
-  color: var(--font-color);
+  color: var(--font-color-secondary);
 }
 
 .main__title,

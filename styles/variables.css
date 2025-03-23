@@ -13,7 +13,10 @@
   --m-font-weight: normal;
   --l-font-weight: bold;
 
-  --font-color: #f1b2ce;
+  --title-color: #DB00FF;
+  --font-color-primary: #f1b2ce;
+  --font-color-secondary: #ff0070;
+  --font-color-tertiary: #000028;
   --accent-color: #ff0070;
   --bg-body: #000028;
   --bg-subtitle: #ff0070;
