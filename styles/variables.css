@@ -13,14 +13,14 @@
   --m-font-weight: normal;
   --l-font-weight: bold;
 
-  --font-color: var(#f1b2ce);
-  --accent-color: var(#ff0070);
-  --bg-body: var(#000028);
-  --bg-subtitle: var(#ff0070);
+  --font-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --bg-body: #000028;
+  --bg-subtitle: #ff0070;
 
-  --button-underline: 0 1px 0 var(#ff0070);
-  --link-underline: 0 1px 0 var(#ff0070);
-  --link-outline: 1px solid var(#ff0070);
+  --button-underline: 0 1px 0 #ff0070;
+  --link-underline: 0 1px 0 #ff0070;
+  --link-outline: 1px solid #ff0070;
 
   --button-padding: 1px 13px 3px;
 
