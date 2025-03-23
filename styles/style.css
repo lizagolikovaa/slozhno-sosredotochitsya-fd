@@ -32,7 +32,7 @@
   inline-size: 25px;
   block-size: 25px;
   background-color: transparent;
-  border: 1px var(--accent-color) solid;
+  border: 1px var(--decoration-color) solid;
   position: absolute;
 }
 
