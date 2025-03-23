@@ -14,7 +14,7 @@
   --pink-dark: #ff8dcb;
   --dark-grey: #353430;
 
-  --background-image: url(/images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
 
   --font-color: var(--dark-grey);
   --accent-color: var(--pink-dark);
@@ -71,12 +71,13 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --pink: #ffc2e6;
     --pink-dark: #ff8dcb;
     --dark-grey: #353430;
 
-    --background-image: url(/images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
 
     --font-color: var(--dark-grey);
     --accent-color: var(--pink-dark);
