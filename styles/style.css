@@ -250,6 +250,7 @@
 }
 
 @media (width >= 768px) {
+  
   .header__rec-marker {
     grid-column: 4 / 5;
   }
@@ -356,6 +357,7 @@
 }
 
 @media (width >= 1024px) {
+
   .header__rec-marker {
     grid-column: 6 / 7;
   }
