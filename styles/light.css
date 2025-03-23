@@ -5,6 +5,7 @@
 */
 
 :root.theme-light {
+
   --bg-image: url(../images/cover-image-light.png);
 
   --font-color: #353430;
@@ -72,7 +73,7 @@
   
   .header__theme-menu-button_active,
   .decorated-zone::before,
-  .theme-light .decorated-zone::after {
+  .decorated-zone::after {
     --accent-color: #353430;
   }
   
