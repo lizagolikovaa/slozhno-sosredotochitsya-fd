@@ -117,6 +117,7 @@
 }
 
 /* По макету у элемента нижнее подчеркивание. Использовала вместо border - box-shadow */
+
 .header__theme-menu-button:focus-within {
   box-shadow: var(--button-underline);
 }
