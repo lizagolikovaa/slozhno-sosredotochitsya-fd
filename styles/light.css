@@ -16,6 +16,7 @@
   --font-color-primary: #353430;
   --font-color-secondary: #353430;
   --font-color-tertiary: #353430;
+  --font-color-shadow: #ff8dcb;
   --accent-color: #ff8dcb;
   --decoration-color: #353430;
   --bg-body: #fff1f7;
@@ -34,7 +35,8 @@
   --accent-color: #32312D66;
 }
 
-.theme-light .header__theme-menu-button_active {
+.theme-light .header__theme-menu-button_active,
+.theme-light .paragraph__link:hover {
   --accent-color: #353430;
 } 
 
