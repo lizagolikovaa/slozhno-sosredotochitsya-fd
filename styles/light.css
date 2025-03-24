@@ -63,12 +63,12 @@
     display: none;
   }
 
-  
   .header__theme-menu-button:hover {
     --accent-color: #32312D66;
   }
   
-  .header__theme-menu-button_active {
+  .header__theme-menu-button_active,
+  .paragraph__link:hover {
     --accent-color: #353430;
   }
 }
