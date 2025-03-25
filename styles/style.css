@@ -101,7 +101,7 @@
   outline: none;
   box-shadow: none;
   border: none;
-  padding: 1px 13px;
+  padding: 1px 13px 2px;
   color: var(--font-color-secondary);
   text-transform: lowercase;
   cursor: pointer;
@@ -119,11 +119,11 @@
 /* По макету у элемента нижнее подчеркивание. Использовала вместо border - box-shadow */
 
 .header__theme-menu-button:focus-within {
-  box-shadow: var(--button-underline);
+  box-shadow: 0 1px 0 var(--button-color-focus);
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--accent-color-tertiary);
+  outline: 1px solid var(--button-color-hover);
 }
 
 .title {
@@ -168,7 +168,7 @@
 }
 
 .paragraph__link:hover {
-  box-shadow: 0 1px 0 var(--accent-color-secondary);
+  box-shadow: 0 1px 0 var(--link-color-hover);
 }
 
 .paragraph__link:focus {
@@ -176,7 +176,7 @@
 }
 
 .paragraph__link:focus-within {
-  outline: var(--link-outline);
+  outline: 1px solid var(--link-color-focus);
 }
 
 .main {

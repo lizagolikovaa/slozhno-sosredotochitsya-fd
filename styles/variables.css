@@ -19,18 +19,14 @@
   --font-color-tertiary: #000028;
   --font-color-shadow: #ff0070;
   --accent-color-primary: #ff0070;
-  --accent-color-secondary: #f1b2ce;
-  --accent-color-tertiary: #ff007080;
   --button-color-active: #ff0070;
+  --button-color-hover: #ff007080;
+  --button-color-focus: #f1b2ce;
+  --link-color-hover: #f1b2ce;
+  --link-color-focus: #f1b2ce;
   --decoration-color: #ff0070;
   --bg-body: #000028;
   --bg-subtitle: #ff0070;
-
-  --button-underline: 0 1px 0 #ff0070;
-  --link-underline: 0 1px 0 #ff0070;
-  --link-outline: 1px solid #f1b2ce;
-
-  --button-padding: 1px 13px 3px;
 
   --grid-template-columns: 2fr 1fr;
 

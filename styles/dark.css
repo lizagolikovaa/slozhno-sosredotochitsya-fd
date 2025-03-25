@@ -14,9 +14,11 @@
   --font-color-tertiary: #000028;
   --font-color-shadow: #ff0070;
   --accent-color-primary: #ff0070;
-  --accent-color-secondary: #f1b2ce;
-  --accent-color-tertiary: #ff007080;
   --button-color-active: #ff0070;
+  --button-color-hover: #ff007080;
+  --button-color-focus: #ff0070;
+  --link-color-hover: #f1b2ce;
+  --link-color-focus: #f1b2ce;
   --decoration-color: #ff0070;
   --bg-body: #000028;
   --bg-subtitle: #ff0070;
