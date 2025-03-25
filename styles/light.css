@@ -26,10 +26,6 @@
   --decoration-color: #353430;
   --bg-body: #fff1f7;
   --bg-subtitle: #ff8dcb;
-
-  --button-underline: 0 1px 0 #353430;
-  --link-underline: 0 1px 0 #353430;
-  --link-outline: 1px solid #353430;
 }
 
 .theme-light .header__rec-marker {
