@@ -21,6 +21,8 @@
   --button-color-active: #353430;
   --button-color-hover: #32312D66;
   --button-color-focus: #353430;
+  --link-color-hover: #353430;
+  --link-color-focus: #353430;
   --decoration-color: #353430;
   --bg-body: #fff1f7;
   --bg-subtitle: #ff8dcb;
@@ -53,10 +55,6 @@
   --decoration-color: #353430;
   --bg-body: #fff1f7;
   --bg-subtitle: #ff8dcb;
-
-  --button-underline: 0 1px 0 #353430;
-  --link-underline: 0 1px 0 #353430;
-  --link-outline: 1px solid #353430;
   }
 
   .header__rec-marker {
