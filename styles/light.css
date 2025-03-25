@@ -17,7 +17,10 @@
   --font-color-secondary: #353430;
   --font-color-tertiary: #353430;
   --font-color-shadow: #ff8dcb;
-  --accent-color: #ff8dcb;
+  --accent-color-primary: #ff8dcb;
+  --accent-color-secondary: #353430;
+  --accent-color-tertiary: #32312D66;
+  --button-color-active: #353430;
   --decoration-color: #353430;
   --bg-body: #fff1f7;
   --bg-subtitle: #ff8dcb;
@@ -31,15 +34,6 @@
   display: none;
 }
 
-.theme-light .header__theme-menu-button:hover {
-  --accent-color: #32312D66;
-}
-
-.theme-light .header__theme-menu-button_active,
-.theme-light .paragraph__link:hover {
-  --accent-color: #353430;
-} 
-
 @media (prefers-color-scheme: light) {
 
   :root {
@@ -50,7 +44,10 @@
   --font-color-secondary: #353430;
   --font-color-tertiary: #353430;
   --font-color-shadow: #ff8dcb;
-  --accent-color: #ff8dcb;
+  --accent-color-primary: #ff8dcb;
+  --accent-color-secondary: #353430;
+  --accent-color-tertiary: #32312D66;
+  --button-color-active: #353430;
   --decoration-color: #353430;
   --bg-body: #fff1f7;
   --bg-subtitle: #ff8dcb;
@@ -62,14 +59,5 @@
 
   .header__rec-marker {
     display: none;
-  }
-
-  .header__theme-menu-button:hover {
-    --accent-color: #32312D66;
-  }
-  
-  .header__theme-menu-button_active,
-  .paragraph__link:hover {
-    --accent-color: #353430;
   }
 }

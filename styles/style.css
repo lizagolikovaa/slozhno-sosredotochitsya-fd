@@ -74,8 +74,8 @@
   inline-size: 9px;
   block-size: 9px;
   border-radius: 100%;
-  background-color: var(--accent-color);
-  box-shadow: 0 0 4px 2px var(--accent-color);
+  background-color: var(--accent-color-primary);
+  box-shadow: 0 0 4px 2px var(--accent-color-primary);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -108,7 +108,7 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--button-color-active);
   pointer-events: none;
 }
 
@@ -123,16 +123,14 @@
 }
 
 .header__theme-menu-button:hover {
-  --accent-color: #ff007080;
-
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color-tertiary);
 
 }
 
 .title {
   font-size: var(--l-font-size);
   font-weight: var(--l-font-weight);
-  line-height: 5.98125rem;
+  line-height: 82.5%;
   color: var(--title-color);
   text-transform: lowercase;
 }
@@ -141,7 +139,7 @@
   grid-column: 1 / 3;
   justify-self: flex-start;
   align-self: center;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--accent-color-primary);
 }
 
 .header__text-box {
@@ -171,9 +169,7 @@
 }
 
 .paragraph__link:hover {
-  --accent-color: #f1b2ce;
-  
-  box-shadow: 0 1px 0 var(--accent-color);
+  box-shadow: 0 1px 0 var(--accent-color-secondary);
 }
 
 .paragraph__link:focus {
@@ -247,7 +243,7 @@
 }
 
 .footer__title {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color-primary);
   padding-block-start: 15px;
 }
 
