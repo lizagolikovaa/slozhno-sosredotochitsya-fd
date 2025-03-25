@@ -267,10 +267,6 @@
     grid-column: 4 / 5;
   }
 
-  .header__theme-menu-list {
-    gap: 10px;
-  }
-
   .header__title {
     grid-column: 1 / 5;
     position: relative;
