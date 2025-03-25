@@ -23,7 +23,7 @@
 
   --button-underline: 0 1px 0 #ff0070;
   --link-underline: 0 1px 0 #ff0070;
-  --link-outline: 1px solid #ff0070;
+  --link-outline: 1px solid #f1b2ce;
 }
 
 .theme-dark .header__rec-marker {
